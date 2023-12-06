@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+
+    <h1>Bem vindo ao jogo da velha do Gean</h1>
+
+    <label name="input">1° JOGADOR </label>
+    <input type="text" name="input" id="playerOne">
+
+    <label name="input">2° JOGADOR </label>
+    <input type="text" name="input" id="playerTwo">
+
+    <button id="addPlayer">Adicionar Jogadores</button>
+
+    <button onclick="restartGame()" id="restart">Reiniciar Jogo</button>
+
+    <ul id = "players">
+
+        
+    </ul>
+
+    <div id="tab">
+
+        <button onclick="insertSymbol(this)" class="key" data-value="1"></button>
+        <button onclick="insertSymbol(this)" class="key" data-value="2"></button>
+        <button onclick="insertSymbol(this)" class="key" data-value="3"></button>
+        <button onclick="insertSymbol(this)" class="key" data-value="4"></button>
+        <button onclick="insertSymbol(this)" class="key" data-value="5"></button>
+        <button onclick="insertSymbol(this)" class="key" data-value="6"></button>
+        <button onclick="insertSymbol(this)" class="key" data-value="7"></button>
+        <button onclick="insertSymbol(this)" class="key" data-value="8"></button>
+        <button onclick="insertSymbol(this)" class="key" data-value="9"></button>
+
+    
+    </div>
+    
+</body>
+</html>
